@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCode Solution Analyzer",
+  "version": "1.0",
+  "description": "Detects accepted submissions and extracts the code for analysis.",
+  "permissions": ["activeTab", "scripting", "storage", "webRequest"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://leetcode.com/problems/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
