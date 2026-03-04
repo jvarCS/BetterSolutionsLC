@@ -24,12 +24,12 @@ In `background.js` at the top, there is a line for an OpenAI key
 ```
 chrome.runtime.onInstalled.addListener(() => {
   chrome.storage.local.set({
-    openaiKey: "your-key"
+    openaiKey: "put your own"
   });
   console.log("API key stored");
 });
 ```
-Replace `your-key` with your actual OpenAI api key.\
+Replace `put your own` with your actual OpenAI api key.\
 \
 Then, go back to
  ```
