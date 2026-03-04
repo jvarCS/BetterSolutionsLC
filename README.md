@@ -45,3 +45,5 @@ Currently the analysis depends on the OpenAI api. This means there will eventual
 Fix for this would be to include a local llm option to avoid the fee all together and improve privacy as a bonus.
 ### Better analysis
 The current analysis looks at your code's time and space complexity and gives a short description for each and for your code in general. More in-depth analysis could see specific suggestions be included to optimize parts of your code.
+# Demo
+![Extension Demo](./assets/BSLC_Demo.gif)
