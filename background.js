@@ -2,7 +2,7 @@ chrome.runtime.onInstalled.addListener(() => {
   chrome.storage.local.set({
     openaiKey: "put your own"
   });
-  console.log("✅ API key stored");
+  console.log("API key stored");
 });
 
 
